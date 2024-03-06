@@ -1,0 +1,238 @@
+*{
+    color: #24292E;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    max-width: 960px;
+    padding:0 4% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.header-nav-list{
+    display: flex;
+    font-size: 14.4px;
+    gap: 33px;
+}
+
+.header-instagram-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.main-visual{
+    margin-bottom: 87px;
+}
+
+.main-visual img{
+    height: 420px;
+    object-fit: cover;
+}
+
+.wrapper{
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto 138px;
+    padding: 0 4%;
+}
+
+.wrapper h2{
+    font-size: 24px;
+    margin-bottom: 74px;
+}
+
+.about ul{
+    text-align: left;
+    margin-bottom: 47px;
+    font-size:14.4px;
+}
+
+.about ul li:first-of-type{
+    margin-bottom: 37px;
+}
+
+.about p{
+    text-align: left;
+    font-size: 14.4px;
+}
+
+.works-images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 23px;
+}
+
+.works-images li{
+    width: 31%;
+}
+
+.news-list{
+    display: flex;
+    text-align: left;
+    border-top: 1px solid #C8C8C8;
+    padding: 17px;
+    gap: 90px;
+    font-size: 14.4px;
+}
+
+.news-list:last-of-type{
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.contact-name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-name input{
+    border:1px solid #C8C8C8;
+    width: 100%;
+    max-width: 723px;
+    padding: 10px;
+}
+
+.contact-mail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-mail input{
+    border:1px solid #C8C8C8;
+    width: 100%;
+    max-width: 723px;
+    padding: 10px;
+}
+.contact-message{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-message textarea{
+    border:1px solid #C8C8C8;
+    width: 100%;
+    max-width: 723px;
+    padding: 10px;
+    height: 160px;
+    margin-bottom: 30px;
+}
+
+.contact-button{
+    width: 200px;
+    height: 53px;
+    color: #FFFFFF;
+    background-color: #24292E;
+}
+
+.contact-button:hover{
+    color:#24292E ;
+    background-color:#FFFFFF;
+    border: 1px solid #24292E;
+}
+
+footer{
+    text-align: center;
+    background-color: #24292E;
+    padding: 12px 0;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+@media screen and (max-width:600px){
+    header{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    
+    header h1{
+        width: 143px;
+        height: 36px;
+        margin: 20px auto 15px;
+    }
+
+    .header-nav-list{
+        display: flex;
+        gap: 24px;
+        margin-bottom: 18px;
+    }
+
+    .wrapper{
+        text-align: center;
+        width: auto;
+        margin: 0 auto 81px;
+        padding: 0 4%;
+    }
+
+    .wrapper h2{
+        margin-bottom: 45px;
+    }
+
+    .works-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .works-images li{
+        width: auto;
+        height: auto;
+    }
+
+    .news-list{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .contact-name{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-name input{
+        height: 43px;
+    }
+
+    .contact-mail{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-mail input{
+        height: 43px;
+    }
+    
+    .contact-message{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-message textarea{
+        height: 160px;
+    }
+}
